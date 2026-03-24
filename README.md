@@ -45,27 +45,28 @@ $$P=\frac{2\mu_L}{\pi D}$$
 ## Installation & Usage
 
 1. **Clone the repository:**
-   \`\`\`bash
+   ```bash
    git clone https://github.com/yourusername/buffon-needle-monte-carlo.git
    cd buffon-needle-monte-carlo
-   \`\`\`
+   ```
 
 2. **Install required packages:**
-   \`\`\`bash
+   ```bash
    pip install numpy matplotlib scipy jupyter
-   \`\`\`
+   ```
 
 3. **Run the notebooks:**
    Launch Jupyter Notebook or Jupyter Lab and open either `classical_buffon_needle.ipynb` or `random_needle_length.ipynb`.
-   \`\`\`bash
+   ```bash
    jupyter notebook
-   \`\`\`
+   ```
 
 **Example execution (from the random length notebook):**
-\`\`\`python
+```python
 # Simulates 10,000 drops with needle lengths uniformly distributed between 2 and 3. Distance between lines is 5.
-monte_carlo_buffon(N=10000, L_min=2, L_max=3, D=5, L_distribution='uniform', charts=True)
-\`\`\`
+monte_carlo_buffon(10000, 2, 3, 5, L_distribution='uniform', charts=True)
+```
+
 
 ## Visualizations
 The notebooks provide rich visualizations to contextualize the Monte Carlo results:
