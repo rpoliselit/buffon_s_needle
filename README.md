@@ -46,8 +46,8 @@ $$P=\frac{2\mu_L}{\pi D}$$
 
 1. **Clone the repository:**
    ```bash
-   git clone https://github.com/yourusername/buffon-needle-monte-carlo.git
-   cd buffon-needle-monte-carlo
+   git clone https://github.com/rpoliselit/buffon_s_needle.git
+   cd buffon_s_needle
    ```
 
 2. **Install required packages:**
